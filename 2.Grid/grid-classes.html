@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Classes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-1">
+        <div class="col bg-primary text-white">
+          <p>
+            Breakpoint less than 1000. Still it will be a row in other
+            brakpoint.
+          </p>
+        </div>
+      </div>
+
+      <div class="row mt-1">
+        <div class="col-lg-6 bg-dark text-white">
+          <p>Breakpoint less than 990.</p>
+        </div>
+        <div class="col-lg-6 bg-success text-white">
+          <p>Both columns beacomes separate row when they meet breakpoint.</p>
+        </div>
+      </div>
+
+      <div class="row mt-1">
+        <div class="col-md-3 bg-danger text-white">
+          <p>Breakpoint less than 768</p>
+        </div>
+        <div class="col-md-3 bg-info text-white">
+          <p>Before breakpoint it will be 4 columns.</p>
+        </div>
+        <div class="col-md-3 bg-danger text-white">
+          <p>After brakpoint all 4 columns</p>
+        </div>
+        <div class="col-md-3 bg-info text-white">
+          <p>becomes separate row.</p>
+        </div>
+      </div>
+
+      <div class="row mt-1">
+        <div class="col-sm-4 bg-warning text-white">
+          <p>Brakpoint less than 576.</p>
+        </div>
+        <div class="col-sm-4 bg-light text-black">
+          <p>When met breakpoint all 3</p>
+        </div>
+        <div class="col-sm-4 bg-secondary text-white">
+          <p>columns becomes row</p>
+        </div>
+      </div>
+
+      <div class="row mt-1 bg-danger text-warning">
+        <p>
+          NOTE: Look at text inside every columns, how space is managed for them
+          automatically.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
