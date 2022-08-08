@@ -28,3 +28,6 @@ This example shows working of col-sm|md|lg and their breakpoints. We also learne
 In this example we have only used .col class, Which divides the grid for columns as per requirement. We learned that only on .col in a row occupy entire row, whereas for multiple .col in a row spaces are divides equally.
 If .col used with sm|md|lg| it becomes responsive.
 NOTE: .col will only maintain equal spacing deosn't matter what breakpoint is.  
+
+## Margin Utilities Folder
+This folder contains examples based on ms-auto, me-auto, standalone classes,guters, horizontal gutters, vertical gutters. 
