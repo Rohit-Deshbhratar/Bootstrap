@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin Utility</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <style>
+      .ht {
+        height: 10rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row ht bg-dark text-info mt-1">
+        <h3>Normal</h3>
+        <div class="col-md-4">
+          <div class="p-2 bg-primary text-white me-1">Col 1</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-2 bg-primary text-white me-1">Col 2</div>
+        </div>
+      </div>
+
+      <div class="row ht bg-dark text-info mt-1">
+        <h3>ms-auto on second column</h3>
+        <div class="col-md-4">
+          <div class="p-2 bg-primary text-white me-1">Col 1</div>
+        </div>
+        <div class="col-md-4 ms-auto">
+          <div class="p-2 bg-primary text-white me-1">Col 2</div>
+        </div>
+      </div>
+
+      <div class="row ht bg-dark text-info mt-1">
+        <h3>me-auto on first column</h3>
+        <div class="col-md-4 me-auto">
+          <div class="p-2 bg-primary text-white me-1">Col 1</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-2 bg-primary text-white me-1">Col 2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
