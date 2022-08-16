@@ -36,7 +36,7 @@ In this example we have only used .col class, Which divides the grid for columns
 If .col used with sm|md|lg| it becomes responsive.
 NOTE: .col will only maintain equal spacing deosn't matter what breakpoint is.
 
-## Margin Utilities Folder
+## 3.Margin Utilities Folder
 
 This folder contains examples based on ms-auto, me-auto, standalone classes,guters, horizontal gutters, vertical gutters.
 
@@ -61,3 +61,17 @@ This example demonstrates how vertical gutters managed manually in three steps. 
 ### gutters-vertical-horizontal.hmtl
 
 This example demonstrates how vertical & horizontal gutters are managed using single class.
+
+## 4.Bootstrap Contents
+
+This folder contains example based on typography, images, tables and figures in bootstrap.
+
+### typography.html
+
+### images.html
+
+Here we have studied how to apply shapes on images, aligning of images, making image responsive using bootstrap classes.
+
+### figures.html
+
+Another experiment on image with caption.
