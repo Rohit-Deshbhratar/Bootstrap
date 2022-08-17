@@ -4,6 +4,8 @@ This repository contains examples practiced to learn bootstrap5. Every folder wi
 
 For example In "Container" folder, HTML file show you what types of containers are, how they look and spaces taken by HTML elements in respective container.
 
+Some examples are not responsive because examples may be showing comparison of output.
+
 ## 1.Container Folder
 
 This folder contains file which implemented Bootstrap 5 containers in different ways for better understanding.
@@ -66,7 +68,13 @@ This example demonstrates how vertical & horizontal gutters are managed using si
 
 This folder contains example based on typography, images, tables and figures in bootstrap.
 
-### typography.html
+### typography-1.html
+
+Here we have compared default HTML styling with bootstrap style. Such as h1 to h6 tags in HTML compared with .h1 to .h6 classes in bootstrap. Comparison of inline HTML element with bootstraps inline text element, display text, paragraph & lead paragraph etc.
+
+### typography-2.html
+
+In this file we have compared HTML list and bootstrap list and applied style to it. Also learned description list, text alignment, text wrapping, text transformation etc.
 
 ### images.html
 
@@ -75,3 +83,7 @@ Here we have studied how to apply shapes on images, aligning of images, making i
 ### figures.html
 
 Another experiment on image with caption.
+
+### tables.html
+
+Worked on table and its contextual classes.
