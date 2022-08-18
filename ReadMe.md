@@ -87,3 +87,25 @@ Another experiment on image with caption.
 ### tables.html
 
 Worked on table and its contextual classes.
+
+## 5.Utilities in Bootstrap
+
+### background.html
+
+Here we have applied various types of background provided by bootstrap, and also learned background gradient. Background opacity is not working, hence removed.
+
+### borders.html
+
+Learned additive and subtractive border, borders with colors, border width, rounded borders.
+
+### display.html
+
+Displaying inblock element as inline and vice versa.
+
+### hiding-element.html
+
+Play hide n seek by reducing browser window and observe which block is hidden at which breakpoint.
+
+### display-in-print.html
+
+Here we learned that how to hide elements on screen and print page by using .display-print-\* classes.
