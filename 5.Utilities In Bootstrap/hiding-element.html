@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Hiding Element</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,6 +12,52 @@
     />
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="p-2 mb-2 bg-primary text-dark d-none">
+          <p>Hidden on all breakpoint.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-none d-sm-block">
+          <p>Hidden in XS only.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-sm-none d-md-block">
+          <p>Hidden in sm only.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-md-none d-lg-block">
+          <p>Hidden in md only.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-lg-none d-xl-block">
+          <p>Hidden in lg only.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-xl-none d-xxl-block">
+          <p>Hidden in xl only.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-xxl-none">
+          <p>Hidden in xxl only.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-block">
+          <p>Visible on all breakpoint.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-block d-sm-none">
+          <p>Visible on xs.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-none d-sm-block d-md-none">
+          <p>Visible on sm only.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-none d-md-block d-lg-none">
+          <p>Visible on md.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-none d-lg-block d-xl-none">
+          <p>Visible only on lg.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-none d-xl-block d-xxl-none">
+          <p>Visible on xl.</p>
+        </div>
+        <div class="p-2 mb-2 bg-primary text-dark d-none d-xxl-block">
+          <p>Visible on xxl.</p>
+        </div>
+      </div>
+    </div>
     <!--BOOTSTRAP JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
